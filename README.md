@@ -24,6 +24,6 @@ Deep convolutional neural networks perform better on images containing spatially
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
 </p>
 Sample results on a real noisy face image from RNI15 dataset.
