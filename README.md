@@ -20,8 +20,8 @@ Our DRLN is also available in PyTorch 0.4.0 and 0.4.1. You can download this ver
 Deep convolutional neural networks perform better on images containing spatially invariant noise (synthetic noise); however, their performance is limited on real-noisy photographs and requires multiple stage network modeling. To advance the practicability of denoising algorithms, this paper proposes a novel single-stage blind real image denoising network (RIDNet) by employing a modular architecture. We use a residual on the residual structure to ease the flow of low-frequency information and apply feature attention to exploit the channel dependencies. Furthermore, the evaluation in terms of quantitative metrics and visual quality on three synthetic and four real noisy datasets against 19 state-of-the-art algorithms demonstrate the superiority of our RIDNet.
 
 
-![Real_Noisy_Image](/Figs/Front.PNG){:class="img-responsive"}
-![Real_Noisy_Image](/Figs/Front.PNG){:height="50%" width="50%"}
-![Real_Noisy_Image](/Figs/Front.PNG){:height="700px" width="400px"}
+![Real_Noisy_Image](/Figs/Front.PNG)
+
+<img src="https://your-image-url.type" width="300">
 
 Sample results on a real noisy face image from RNI15 dataset.
