@@ -45,7 +45,7 @@ The feature attention mechanism for selecting the essential features.
 
 2. Cd to '/TestCode/code', run the following scripts.
 
-    **You can use scripts in file 'TestDRLN_All' to produce results for our paper or You can also use individual scripts such as TestDRLN_2x.sh**
+    **You can use the following script to test the algorithm**
 
     ```bash
     # No self-ensemble: RIDNET
