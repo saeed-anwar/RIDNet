@@ -32,3 +32,29 @@ size of the conv layer means the kernel is 1x1. The second row shows the archite
   <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/FeatureAtt.PNG">
 </p>
 The feature attention mechanism for selecting the essential features.
+
+
+## Train
+**Will be added later**
+
+## Test
+### Quick start
+1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
+
+    All the models (BIX2/3/4/8, BDX3) can be downloaded from [Google Drive](https://drive.google.com/open?id=1MwRNAcUOBcS0w6Q7gGNZWYO_AP_svi7i) or [here](https://icedrive.net/0/a81sqSW91R). The total size for all models is 737MB.
+
+2. Cd to '/TestCode/code', run the following scripts.
+
+    **You can use scripts in file 'TestDRLN_All' to produce results for our paper or You can also use individual scripts such as TestDRLN_2x.sh**
+
+    ```bash
+    # No self-ensemble: RIDNET
+    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/CIMM_Real/model/model_best.pt --test_only --save_results --save 'RIDNET_DnD' --testpath ../LR/LRBI/ --testset DnD
+    # Ensemble
+    
+    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/CIMM_Real/model/model_best.pt --test_only --save_results --save 'RIDNETplus_DnD' --testpath ../LR/LRBI/ --testset DnD --self_ensemble
+    ```
+
+
+## Results
+**All the results for RIDNET can be downloaded from [GoogleDrive]() or [here](). The size of the results is 2.41GB** 
