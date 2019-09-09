@@ -41,7 +41,7 @@ The feature attention mechanism for selecting the essential features.
 ### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
 
-    All the models (BIX2/3/4/8, BDX3) can be downloaded from [Google Drive](https://drive.google.com/open?id=1MwRNAcUOBcS0w6Q7gGNZWYO_AP_svi7i) or [here](https://icedrive.net/0/a81sqSW91R). The total size for all models is 737MB.
+    All the models can be downloaded from [Google Drive]() or [here](). The total size for all models is ??MB.
 
 2. Cd to '/TestCode/code', run the following scripts.
 
@@ -57,4 +57,4 @@ The feature attention mechanism for selecting the essential features.
 
 
 ## Results
-**All the results for RIDNET can be downloaded from [GoogleDrive]() or [here](). The size of the results is 2.41GB** 
+**All the results for RIDNET can be downloaded from [GoogleDrive]() or [here](). The size of the results is ??GB** 
