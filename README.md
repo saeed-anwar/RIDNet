@@ -3,9 +3,8 @@ This repository is for Real Image Denoising with Feature Attention (RIDNet) intr
 
 [Saeed Anwar](https://saeed-anwar.github.io/),  [Nick Barnes], "Real Image Denoising with Feature Attention", [[arXiv]](https://arxiv.org/abs/1904.07396) 
 
-The model is built in PyTorch 1.1.0 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
+The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1).
 
-Our DRLN is also available in PyTorch 0.4.0 and 0.4.1. You can download this version from [Google Drive](https://drive.google.com/open?id=1I91VGposSoFq6UrWBuxCKbst6sMi1yhR) or [here](https://icedrive.net/0/cb986Jh8rh). 
 
 ## Contents
 1. [Introduction](#introduction)
@@ -23,3 +22,13 @@ Deep convolutional neural networks perform better on images containing spatially
   <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
 </p>
 Sample results on a real noisy face image from RNI15 dataset.
+
+## Network
+![Network](/Figs/Net.PNG)
+The architecture of the proposed network. Different green colors of the conv layers denote different dilations while the smaller
+size of the conv layer means the kernel is 1x1. The second row shows the architecture of each EAM.
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
+</p>
+The feature attention mechanism for selecting the essential features.
