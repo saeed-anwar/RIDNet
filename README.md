@@ -29,6 +29,6 @@ The architecture of the proposed network. Different green colors of the conv lay
 size of the conv layer means the kernel is 1x1. The second row shows the architecture of each EAM.
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/FeatureAtt.PNG">
 </p>
 The feature attention mechanism for selecting the essential features.
