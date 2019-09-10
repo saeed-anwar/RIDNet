@@ -54,7 +54,7 @@ The feature attention mechanism for selecting the essential features.
 
 
 ## Results
-**All the results for RIDNET can be downloaded from GoogleDrive [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C). The size of the results is ??GB** 
+**All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is ??GB** 
 
 ### Quantitative Results
 <p align="center">
