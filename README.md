@@ -49,7 +49,7 @@ The feature attention mechanism for selecting the essential features.
 
     ```bash
     # No self-ensemble: RIDNET
-    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/CIMM_Real/model/model_best.pt --test_only --save_results --save 'RIDNET_DnD' --testpath ../LR/LRBI/ --testset DnD
+    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_DnD' --testpath ../LR/LRBI/ --testset DnD
     ```
 
 
