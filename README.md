@@ -55,3 +55,50 @@ The feature attention mechanism for selecting the essential features.
 
 ## Results
 **All the results for RIDNET can be downloaded from [GoogleDrive]() or [here](). The size of the results is ??GB** 
+
+### Quantitative Results
+![PSNR_SSIM_DnD](/Figs/DnDTable.PNG)
+The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
+
+![PSNR_SSIM_SSID](/Figs/SSIDTable.PNG)
+The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
+
+For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
+
+### Visual Results
+![Visual_PSNR_DnD1](/Figs/DnD.PNG)
+A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
+
+![Visual_PSNR_DnD2](/Figs/DnD2.PNG)
+![Visual_PSNR_Dnd3](/Figs/DnD3.PNG)
+Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
+
+![Visual_PSNR_RNI15](/Figs/RNI15.PNG)
+A real high noise example from RNI15 dataset. Our method is able to remove the noise in textured and smooth areas without introducing artifacts
+
+![Visual_PSNR_SSIM_SSID](/Figs/SSID.PNG)
+A challenging example from SSID dataset. Our method can remove noise and restore true colors
+
+![Visual_PSNR_SSIM_BI](/Figs/SSID2.PNG)
+![Visual_PSNR_SSIM_BI](/Figs/SSID3.PNG)
+Few more examples from SSID dataset.
+
+## Citation
+If you find the code helpful in your resarch or work, please cite the following papers.
+```
+@article{anwar2019ridnet,
+  title={Real Image Denoising with Feature Attention},
+  author={Anwar, Saeed and Barnes, Nick},
+  journal={arXiv preprint arXiv:1904.07396},
+  year={2019}
+}
+
+@article{anwar2017chaining,
+  title={Chaining identity mapping modules for image denoising},
+  author={Anwar, Saeed and Huynh, Cong Phouc and Porikli, Fatih},
+  journal={arXiv preprint arXiv:1712.02933},
+  year={2017}
+}
+```
+## Acknowledgements
+This code is built on [DRLN (PyTorch)](https://github.com/saeed-anwar/DRLN)
