@@ -58,9 +58,15 @@ The feature attention mechanism for selecting the essential features.
 
 ### Quantitative Results
 ![PSNR_SSIM_DnD](/Figs/DnDTable.PNG)
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/DnDTable.PNG">
+</p>
 The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
 
 ![PSNR_SSIM_SSID](/Figs/SSIDTable.PNG)
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSIDTable.PNG">
+</p>
 The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
 
 For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
