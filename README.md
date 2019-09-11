@@ -39,7 +39,7 @@ The feature attention mechanism for selecting the essential features.
 
 ## Test
 ### Quick start
-1. Download the trained models for our paper and place them in '/TestCode/TrainedModels'.
+1. Download the trained models for our paper and place them in '/TestCode/experiment'.
 
     All the models can be downloaded from [Google Drive]() or [here](). The total size for all models is ??MB.
 
