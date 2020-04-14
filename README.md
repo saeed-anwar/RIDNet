@@ -97,7 +97,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 @article{anwar2019ridnet,
   title={Real Image Denoising with Feature Attention},
   author={Anwar, Saeed and Barnes, Nick},
-  journal={arXiv preprint arXiv:1904.07396},
+  journal={IEEE International Conference on Computer Vision (ICCV-Oral)},
   year={2019}
 }
 
