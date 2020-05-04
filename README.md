@@ -101,11 +101,11 @@ If you find the code helpful in your resarch or work, please cite the following 
   year={2019}
 }
 
-@article{anwar2017chaining,
-  title={Chaining identity mapping modules for image denoising},
-  author={Anwar, Saeed and Huynh, Cong Phouc and Porikli, Fatih},
-  journal={arXiv preprint arXiv:1712.02933},
-  year={2017}
+@article{Anwar2020IERD,
+  author = {Anwar, Saeed and Huynh, Cong P. and Porikli, Fatih },
+    title = {Identity Enhanced Image Denoising},
+    journal={IEEE Computer Vision and Pattern Recognition Workshops (CVPRW)},
+    year={2020}
 }
 ```
 ## Acknowledgements
