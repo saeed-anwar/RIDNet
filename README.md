@@ -67,7 +67,7 @@ The performance of state-of-the-art algorithms on widely used publicly available
 </p>
 The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
 
-For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
+For more information, please refer to our [paper](https://arxiv.org/abs/1904.07396)
 
 ### Visual Results
 ![Visual_PSNR_DnD1](/Figs/DnD.PNG)
